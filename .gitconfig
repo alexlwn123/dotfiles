@@ -1,0 +1,12 @@
+[user]
+	name = Alex Lewin
+	email = alex.lewin@blockspaces.com
+	signingkey = 1FF18F8244204C9A
+[pull]
+	rebase = true
+[rebase]
+	autostash = true
+[push]
+	autoSetupRemote = true
+[commit]
+	gpgsign = true
