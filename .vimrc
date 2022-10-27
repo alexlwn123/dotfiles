@@ -2,8 +2,16 @@
 """"""""""""""""""
 set background=dark  
 set nu rnu 
+set nuw=2
 syntax on
-:highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
+" set cursorline
+" hi LineNr ctermfg=DarkGrey
+" hi clear CursorLine
+" hi CursorLineNr ctermfg=Yellow ctermbg=None
+set cursorline
+set cursorlineopt=number
+hi CursorLineNr term=bold cterm=NONE ctermfg=Yellow ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
+hi LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
 let mapleader = ","
 set history=500
 set expandtab
